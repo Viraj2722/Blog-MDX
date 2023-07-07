@@ -3,7 +3,7 @@ title: "Blog1"
 description: "A Beginner's Guide to Building a Raspberry Pi Weather Station "
 cover_html: <img src="images/header.jpeg" alt="How To Add CSS In Next js" />
 date: 2023-02-07
-tags: ["formula1", "f1teams", "f1circuits"]
+tags: ["raspberrypi", "iot", "robotics"]
 ---
 # this is my blog
 ### Introduction:
@@ -56,6 +56,31 @@ Create a new Python script on the Raspberry Pi using your preferred text editor.
 > blockquoteed
 [title](https://www.example.com)
 
-```js
-console.log("hello");
+```py
+import Adafruit_DHT
+import board
+import busio
+import adafruit_bmp180
+
+dht_pin = 4
+bmp_sda_pin = board.SDA
+bmp_scl_pin = board.SCL
+
+def get_temperature_humidity():
+    humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.DHT11, dht_pin)
+    return temperature, humidity
+
+def get_pressure():
+    i2c = busio.I2C(bmp_scl_pin, bmp_sda_pin)
+    bmp180 = adafruit_bmp180.Adafruit_BMP180_I2C(i2c)
+    return bmp180.pressure
+
+while True:
+    temperature, humidity = get_temperature_humidity()
+    pressure = get_pressure()
+    print(f"Temperature: {temperature}°C")
+    print(f"Humidity: {humidity}%")
+    print(f"Pressure: {pressure} Pa")
+
 ```
+##THANK YOU FOR VISITING!!!!
