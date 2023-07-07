@@ -1,5 +1,5 @@
 ---
-title: "blog test"
+title: "FORMULA 1"
 description: "sample description"
 cover_html: <img src="images/1.jpg" alt="How To Add CSS In Next js" />
 date: 2023-06-07
