@@ -1,6 +1,6 @@
 ---
-title: "Raspberry Pi Weather station"
-description: "A Beginner's Guide to Building a Raspberry Pi Weather Station......."
+title: "Blog1"
+description: "A Beginner's Guide to Building a Raspberry Pi Weather Station "
 cover_html: <img src="images/header.jpeg" alt="How To Add CSS In Next js" />
 date: 2023-02-07
 tags: ["formula1", "f1teams", "f1circuits"]
