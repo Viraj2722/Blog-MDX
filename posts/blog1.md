@@ -21,7 +21,7 @@ Before diving into the project, make sure you have all the required components. 
 6.Power supply for the Raspberry Pi
 7.Computer with an SD card reader
 
-![img](images/download.jpeg)
+![img](images/7.jpg)
 
 For more information related these components click here!!
 [link](https://youtu.be/gPJs9Qqexc4)
@@ -136,4 +136,6 @@ Remember, the possibilities for your Raspberry Pi weather station are limitless.
 
 Whether you are a weather enthusiast, an educational institution, or simply curious about your local weather, building a Raspberry Pi weather station empowers you to explore and engage with meteorological data in a hands-on and meaningful way.
 
-So, gather your sensors, write your code, and embark on this exciting journey of building your Raspberry Pi weather station. Keep experimenting, learning, and pushing the boundaries of what your weather station can do. Happy monitoring!
+So, gather your sensors, write your code, and embark on this exciting journey of building your Raspberry Pi weather station. Keep experimenting, learning, and pushing the boundaries of what your weather station can do. 
+
+**Happy monitoring!!!**
