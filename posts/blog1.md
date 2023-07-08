@@ -1,7 +1,6 @@
 ---
 title: "BLOG 1"
 description: "A Beginner's Guide to Building a Raspberry Pi Weather Station "
-# cover_html: <img src="images/download.jpeg" alt="How To Add CSS In Next js" />
 date: 2023-02-07
 tags: ["raspberrypi", "iot", "robotics"]
 ---
@@ -22,6 +21,9 @@ Before diving into the project, make sure you have all the required components. 
 5.MicroSD card with Raspbian installed
 6.Power supply for the Raspberry Pi
 7.Computer with an SD card reader
+
+For more information related these components click here!!
+--[components](https://youtu.be/gPJs9Qqexc4)
 
 **Step 2**: Set up the Raspberry Pi
 First, we need to set up the Raspberry Pi. Follow these steps:
@@ -80,4 +82,3 @@ while True:
     print(f"Pressure: {pressure} Pa")
 
 ```
-THANK YOU !!!!
