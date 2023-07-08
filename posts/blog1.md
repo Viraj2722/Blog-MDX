@@ -1,5 +1,5 @@
 ---
-title: "Building a Weather station using Raspberry pi"
+title: "Weather station using Raspberry pi"
 description: "This is a Beginner's Guide to Building a Raspberry Pi Weather Station "
 date: 2023-02-07
 tags: ["raspberrypi", "iot", "robotics"]
@@ -49,6 +49,8 @@ Connect the BMP180 sensor's SCL pin to GPIO pin 3 (SCL) on the Raspberry Pi.
 **Step 4**: Install necessary libraries
 To interact with the sensors, we need to install some libraries. Open the Terminal on the Raspberry Pi and run the following commands:
 
+![alt text](images/4.png)
+
 Update the package lists: sudo apt-get update
 Install the required libraries: sudo apt-get install python3-dev python3-pip
 Install the Adafruit DHT library: sudo pip3 install Adafruit_DHT
@@ -85,9 +87,6 @@ while True:
 
 Set up your Raspberry Pi with Raspbian or any other compatible operating system.
 Connect the temperature and humidity sensor to the appropriate GPIO pin (in this case, pin 4).
-Install the required libraries by running the following commands in the terminal:
-
-![alt text](images/4.png)
 
 Create a new Python file, e.g., weather_station.py, and copy the above code into it.
 Save the file and execute it by running python3 weather_station.py in the terminal.
