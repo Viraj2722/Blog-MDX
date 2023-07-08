@@ -46,7 +46,7 @@ Connect the BMP180 sensor's GND pin to any of the GND pins on the Raspberry Pi.
 Connect the BMP180 sensor's SDA pin to GPIO pin 2 (SDA) on the Raspberry Pi.
 Connect the BMP180 sensor's SCL pin to GPIO pin 3 (SCL) on the Raspberry Pi.
 
-Following is the picture of how the setup will look:-
+**Following is the picture of how the setup will look**:-
 
 ![image](images/6.jpeg)
 
@@ -95,6 +95,10 @@ Connect the temperature and humidity sensor to the appropriate GPIO pin (in this
 Create a new Python file, e.g., weather_station.py, and copy the above code into it.
 Save the file and execute it by running python3 weather_station.py in the terminal.
 The program continuously reads the temperature and humidity values from the sensor using the Adafruit_DHT library. It then prints the values on the console. You can modify the code to display the data on an LCD display or store it in a database for further analysis.
+
+**Final output after running the setup will be as follows:-**
+
+![img](images/5.jpeg)
 
 **Note**: Make sure you have the appropriate libraries installed and the sensor connected correctly to the Raspberry Pi before running the program.
 
