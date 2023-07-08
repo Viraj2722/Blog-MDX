@@ -1,6 +1,6 @@
 ---
-title: "BLOG 1"
-description: "A Beginner's Guide to Building a Raspberry Pi Weather Station "
+title: "Building a Weather station using Raspberry pi"
+description: "This is a Beginner's Guide to Building a Raspberry Pi Weather Station "
 date: 2023-02-07
 tags: ["raspberrypi", "iot", "robotics"]
 ---
@@ -54,32 +54,42 @@ Install the required libraries: sudo apt-get install python3-dev python3-pip
 Install the Adafruit DHT library: sudo pip3 install Adafruit_DHT
 Install the BMP library: sudo pip3 install adafruit-circuitpython-bmp
 Step 5: Write the code
-Create a new **Python script** on the Raspberry Pi using your preferred text editor. Copy and paste the following code into the script:
+Create a new **Python script** on the Raspberry Pi using your preferred text editor. 
+
+Here's a sample Python program that reads data from the sensor and displays it on the console:
 
 ```py
 import Adafruit_DHT
-import board
-import busio
-import adafruit_bmp180
+import time
 
-dht_pin = 4
-bmp_sda_pin = board.SDA
-bmp_scl_pin = board.SCL
-
-def get_temperature_humidity():
-    humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.DHT11, dht_pin)
-    return temperature, humidity
-
-def get_pressure():
-    i2c = busio.I2C(bmp_scl_pin, bmp_sda_pin)
-    bmp180 = adafruit_bmp180.Adafruit_BMP180_I2C(i2c)
-    return bmp180.pressure
+# Set up the sensor model and GPIO pin
+sensor = Adafruit_DHT.DHT22
+pin = 4
 
 while True:
-    temperature, humidity = get_temperature_humidity()
-    pressure = get_pressure()
-    print(f"Temperature: {temperature}°C")
-    print(f"Humidity: {humidity}%")
-    print(f"Pressure: {pressure} Pa")
+    # Read the temperature and humidity from the sensor
+    humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 
+    # Check if the sensor reading was successful
+    if humidity is not None and temperature is not None:
+        print('Temperature: {0:0.1f}°C'.format(temperature))
+        print('Humidity: {0:0.1f}%'.format(humidity))
+    else:
+        print('Failed to retrieve sensor data.')
+
+    # Wait for some time before taking the next reading
+    time.sleep(2)
 ```
+**To run the program, follow these steps :**
+
+Set up your Raspberry Pi with Raspbian or any other compatible operating system.
+Connect the temperature and humidity sensor to the appropriate GPIO pin (in this case, pin 4).
+Install the required libraries by running the following commands in the terminal:
+
+![alt text](images/4.png)
+
+Create a new Python file, e.g., weather_station.py, and copy the above code into it.
+Save the file and execute it by running python3 weather_station.py in the terminal.
+The program continuously reads the temperature and humidity values from the sensor using the Adafruit_DHT library. It then prints the values on the console. You can modify the code to display the data on an LCD display or store it in a database for further analysis.
+
+**Note**: Make sure you have the appropriate libraries installed and the sensor connected correctly to the Raspberry Pi before running the program.
