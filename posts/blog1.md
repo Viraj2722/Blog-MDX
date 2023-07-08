@@ -48,7 +48,7 @@ Connect the BMP180 sensor's SCL pin to GPIO pin 3 (SCL) on the Raspberry Pi.
 
 Following is the picture of how the setup will look:-
 
-![image](images/5.jpeg)
+![image](images/6.jpeg)
 
 **Step 4**: Install necessary libraries
 To interact with the sensors, we need to install some libraries. Open the Terminal on the Raspberry Pi and run the following commands:
