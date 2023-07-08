@@ -3,8 +3,8 @@ title: "BLOG 1"
 description: "A Beginner's Guide to Building a Raspberry Pi Weather Station "
 date: 2023-02-07
 tags: ["raspberrypi", "iot", "robotics"]
-[Syste](images/3.jpg)
 ---
+[Syste](images/3.jpg)
 
 ### Introduction:
 
