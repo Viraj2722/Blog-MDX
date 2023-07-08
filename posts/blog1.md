@@ -1,14 +1,16 @@
 ---
-title: "Blog1"
+title: "BLOG 1"
 description: "A Beginner's Guide to Building a Raspberry Pi Weather Station "
 # cover_html: <img src="images/download.jpeg" alt="How To Add CSS In Next js" />
 date: 2023-02-07
 tags: ["raspberrypi", "iot", "robotics"]
 ---
-# This is my blog
+
 ### Introduction:
 
-**The Raspberry Pi** is a versatile and affordable single-board computer that can be used for various projects. In this tutorial, we will guide you through the process of building your very own Raspberry Pi weather station. By the end of this tutorial, you will have a fully functional weather station that can measure temperature, humidity, and atmospheric pressure. So, let's get started!
+![System](images/download.jpeg)
+
+*The Raspberry Pi* is a versatile and affordable single-board computer that can be used for various projects. In this tutorial, we will guide you through the process of building your very own Raspberry Pi weather station. By the end of this tutorial, you will have a fully functional weather station that can measure temperature, humidity, and atmospheric pressure. So, let's get started!
 
 **Step 1**: Gather the necessary components
 Before diving into the project, make sure you have all the required components. Here's a list of what you'll need:
@@ -50,7 +52,6 @@ Install the Adafruit DHT library: sudo pip3 install Adafruit_DHT
 Install the BMP library: sudo pip3 install adafruit-circuitpython-bmp
 Step 5: Write the code
 Create a new **Python script** on the Raspberry Pi using your preferred text editor. Copy and paste the following code into the script:
-
 
 ```py
 import Adafruit_DHT
