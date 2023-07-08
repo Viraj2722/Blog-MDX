@@ -21,8 +21,10 @@ Before diving into the project, make sure you have all the required components. 
 6.Power supply for the Raspberry Pi
 7.Computer with an SD card reader
 
+![img](images/download.jpeg)
+
 For more information related these components click here!!
---[components](https://youtu.be/gPJs9Qqexc4)
+[link](https://youtu.be/gPJs9Qqexc4)
 
 **Step 2**: Set up the Raspberry Pi
 First, we need to set up the Raspberry Pi. Follow these steps:
