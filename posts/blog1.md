@@ -8,7 +8,7 @@ tags: ["raspberrypi", "iot", "robotics"]
 
 ### Introduction:
 
-*The Raspberry Pi* is a versatile and affordable single-board computer that can be used for various projects. In this tutorial, I will guide you through the process of building your very own Raspberry Pi weather station. By the end of this tutorial, you will have a fully functional weather station that can measure temperature, humidity, and atmospheric pressure. So, let's get started!!
+**The Raspberry Pi** is a versatile and affordable single-board computer that can be used for various projects. In this tutorial, I will guide you through the process of building your very own Raspberry Pi weather station. By the end of this tutorial, you will have a fully functional weather station that can measure temperature, humidity, and atmospheric pressure. So, let's get started!!
 
 **Step 1**: Gather the necessary components
 Before diving into the project, make sure you have all the required components. Here's a list of what you'll need:
