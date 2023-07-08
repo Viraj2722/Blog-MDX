@@ -6,7 +6,7 @@ blog({
   avatar: "https://avatars.githubusercontent.com/u/127889803",
   favicon: "https://avatars.githubusercontent.com/u/127889803",
   avatarClass: "rounded-full",
-  theme: "dark",
+  theme: "auto",
   lang: "en",
   readtime: true,
   dateFormat: (date) => new Intl.DateTimeFormat("en-IN", { dateStyle: "full" }).format(date),
