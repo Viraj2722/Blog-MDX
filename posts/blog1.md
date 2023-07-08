@@ -53,11 +53,12 @@ Update the package lists: sudo apt-get update
 Install the required libraries: sudo apt-get install python3-dev python3-pip
 Install the Adafruit DHT library: sudo pip3 install Adafruit_DHT
 Install the BMP library: sudo pip3 install adafruit-circuitpython-bmp
-Step 5: Write the code
+
+**Step 5**: Write the code
 Create a new **Python script** on the Raspberry Pi using your preferred text editor. 
 
 Here's a sample Python program that reads data from the sensor and displays it on the console:
-
+---
 ```py
 import Adafruit_DHT
 import time
@@ -65,7 +66,6 @@ import time
 # Set up the sensor model and GPIO pin
 sensor = Adafruit_DHT.DHT22
 pin = 4
-
 while True:
     # Read the temperature and humidity from the sensor
     humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
@@ -80,6 +80,7 @@ while True:
     # Wait for some time before taking the next reading
     time.sleep(2)
 ```
+---
 **To run the program, follow these steps :**
 
 Set up your Raspberry Pi with Raspbian or any other compatible operating system.
