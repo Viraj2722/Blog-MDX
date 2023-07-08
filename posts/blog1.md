@@ -1,12 +1,13 @@
 ---
 title: "Blog1"
 description: "A Beginner's Guide to Building a Raspberry Pi Weather Station "
-cover_html: <img src="images/header.jpeg" alt="How To Add CSS In Next js" />
+cover_html: <img src="images/download.jpeg" alt="How To Add CSS In Next js" />
 date: 2023-02-07
 tags: ["raspberrypi", "iot", "robotics"]
 ---
 # This is my blog
 ### Introduction:
+
 The Raspberry Pi is a versatile and affordable single-board computer that can be used for various projects. In this tutorial, we will guide you through the process of building your very own Raspberry Pi weather station. By the end of this tutorial, you will have a fully functional weather station that can measure temperature, humidity, and atmospheric pressure. So, let's get started!
 
 Step 1: Gather the necessary components
