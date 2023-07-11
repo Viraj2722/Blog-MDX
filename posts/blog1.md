@@ -1,7 +1,7 @@
 ---
 title: "Weather station using Raspberry pi"
-description: "This is a Beginner's Guide to Building a Raspberry Pi Weather Station "
-date: 2023-02-07
+description: "This is a Beginner's Guide to Building a Raspberry Pi Weather Station"
+publish_date: 2023-06-07
 tags: ["raspberrypi", "iot", "robotics"]
 ---
 ![Syste](images/3.jpg)
@@ -65,7 +65,7 @@ Create a new **Python script** on the Raspberry Pi using your preferred text edi
 
 Here's a sample Python program that reads data from the sensor and displays it on the console:
 ---
-```py
+```python
 import Adafruit_DHT
 import time
 
