@@ -23,8 +23,7 @@ Before diving into the project, make sure you have all the required components. 
 
 ![img](images/7.jpg)
 
-For more information related these components click here!!
-[link](https://youtu.be/gPJs9Qqexc4)
+For more information related these components [click here](https://youtu.be/gPJs9Qqexc)
 
 **Step 2**: Set up the Raspberry Pi
 First, we need to set up the Raspberry Pi. Follow these steps:
