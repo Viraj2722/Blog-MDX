@@ -4,7 +4,7 @@ description: "This is a Beginner's Guide to Building a Raspberry Pi Weather Stat
 publish_date: 2023-06-07
 tags: ["raspberrypi", "iot", "robotics"]
 ---
-![Syste](images/3.jpg)
+![System](images/3.jpg)
 
 ### Introduction:
 
