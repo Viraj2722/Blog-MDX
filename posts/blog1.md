@@ -25,8 +25,8 @@ Before diving into the project, make sure you have all the required components. 
 
 For more information related these components [click here](https://youtu.be/gPJs9Qqexc)
 
-**Step 2**: Set up the Raspberry Pi
-First, we need to set up the Raspberry Pi. Follow these steps:
+**Step 2**: Setting up the Raspberry Pi
+We need to follow the steps in order to setup the raspberry pi.
 
 1.Insert the microSD card with Raspbian into the Raspberry Pi.
 2.Connect the HDMI cable from the Raspberry Pi to a monitor or TV.
@@ -44,10 +44,6 @@ Next, connect the BMP180 sensor to the breadboard and connect its VCC pin to the
 Connect the BMP180 sensor's GND pin to any of the GND pins on the Raspberry Pi.
 Connect the BMP180 sensor's SDA pin to GPIO pin 2 (SDA) on the Raspberry Pi.
 Connect the BMP180 sensor's SCL pin to GPIO pin 3 (SCL) on the Raspberry Pi.
-
-**Following is the picture of how the setup will look**:-
-
-![image](images/6.jpeg)
 
 **Step 4**: Install necessary libraries
 To interact with the sensors, we need to install some libraries. Open the Terminal on the Raspberry Pi and run the following commands:
