@@ -13,13 +13,13 @@ The **Raspberry Pi** is a versatile and affordable single-board computer that ca
 **Step 1**: Gather the necessary components
 Before diving into the project, make sure you have all the required components. Here's a list of what you'll need:
 
-1.Raspberry Pi (any model with GPIO pins)
-2.DHT11 temperature and humidity sensor
-3.BMP180 barometric pressure sensor
-4.Breadboard and jumper wires
-5.MicroSD card with Raspbian installed
-6.Power supply for the Raspberry Pi
-7.Computer with an SD card reader
+1.Raspberry Pi (any model with GPIO pins)<br>
+2.DHT11 temperature and humidity sensor<br>
+3.BMP180 barometric pressure sensor<br>
+4.Breadboard and jumper wires<br>
+5.MicroSD card with Raspbian installed<br>
+6.Power supply for the Raspberry Pi<br>
+7.Computer with an SD card reader<br>
 
 ![img](images/7.jpg)
 
@@ -29,9 +29,9 @@ For more information related these components [click here](https://youtu.be/gPJs
 We need to follow the steps in order to setup the raspberry pi.
 
 1.Insert the microSD card with Raspbian into the Raspberry Pi.<br>
-2.Connect the HDMI cable from the Raspberry Pi to a monitor or TV.
-3.Plug in the keyboard and mouse to the USB ports.
-4.Connect the power supply to the Raspberry Pi to turn it on.
+2.Connect the HDMI cable from the Raspberry Pi to a monitor or TV.<br>
+3.Plug in the keyboard and mouse to the USB ports.<br>
+4.Connect the power supply to the Raspberry Pi to turn it on.<br>
 4.Follow the on-screen instructions to complete the initial setup of Raspbian.
 
 **Step 3**: Connect the sensors
@@ -50,9 +50,9 @@ To interact with the sensors, we need to install some libraries. Open the Termin
 
 ![alt text](images/4.png)
 
-Update the package lists: sudo apt-get update
-Install the required libraries: sudo apt-get install python3-dev python3-pip
-Install the Adafruit DHT library: sudo pip3 install Adafruit_DHT
+Update the package lists: sudo apt-get update<br>
+Install the required libraries: sudo apt-get install python3-dev python3-pip<br>
+Install the Adafruit DHT library: sudo pip3 install Adafruit_DHT<br>
 Install the BMP library: sudo pip3 install adafruit-circuitpython-bmp
 
 **Step 5**: Write the code
@@ -84,12 +84,12 @@ while True:
 ---
 **To run the program, follow these steps :**
 
-Set up your Raspberry Pi with Raspbian or any other compatible operating system.
-Connect the temperature and humidity sensor to the appropriate GPIO pin (in this case, pin 4).
+Set up your Raspberry Pi with Raspbian or any other compatible operating system.<br>
+Connect the temperature and humidity sensor to the appropriate GPIO pin (in this case, pin 4).<br>
 
-Create a new Python file, e.g., weather_station.py, and copy the above code into it.
-Save the file and execute it by running python3 weather_station.py in the terminal.
-The program continuously reads the temperature and humidity values from the sensor using the Adafruit_DHT library. It then prints the values on the console. You can modify the code to display the data on an LCD display or store it in a database for further analysis.
+Create a new Python file, e.g., weather_station.py, and copy the above code into it.<br>
+Save the file and execute it by running python3 weather_station.py in the terminal.<br>
+The program continuously reads the temperature and humidity values from the sensor using the Adafruit_DHTlibrary.<br> It then prints the values on the console. You can modify the code to display the data on an LCD display or store it in a database for further analysis.
 
 **Final output after running the setup will be as follows:-**
 
