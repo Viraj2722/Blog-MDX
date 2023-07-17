@@ -28,7 +28,7 @@ For more information related these components [click here](https://youtu.be/gPJs
 **Step 2**: Setting up the Raspberry Pi
 We need to follow the steps in order to setup the raspberry pi.
 
-1.Insert the microSD card with Raspbian into the Raspberry Pi.
+1.Insert the microSD card with Raspbian into the Raspberry Pi.<br>
 2.Connect the HDMI cable from the Raspberry Pi to a monitor or TV.
 3.Plug in the keyboard and mouse to the USB ports.
 4.Connect the power supply to the Raspberry Pi to turn it on.
